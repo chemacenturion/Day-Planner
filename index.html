@@ -19,7 +19,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./Assets/style.css" />
-    <title>Daily Planner</title>
+    <title>Day-Planner</title>
   </head>
 
   <body>
@@ -32,8 +32,11 @@
       <!-- Timeblocks go here -->
       <!-- Create 9 separate forms with a button to save and a button to clear. -->
       <form class="row">
+      <!-- Made sure to match all form classes with CSS selectors to obtain pre-provided styles. -->
+      <!-- Needed to tab once after all single digit hours to get timeblock inputs to line up correctly. -->
         <label class="hour"><p>9AM  </p></label>
         <input type="text" class="time-block" name="Event">
+      <!-- Added white floppy disk unicdoe as seen in application example. -->
         <button class="saveBtn"><span>&#128427</span>
         </button>
       </form>
@@ -92,7 +95,7 @@
     <script src="Assets/script.js"></script>
 
     <script>
-
+// dddd MMMM Do YYYY date format provided by moment.js webpage given in original readME instructions.
       var currentDate = $("#currentDay");
         var date = moment().format('dddd MMMM Do YYYY');
         currentDate.text(date)
