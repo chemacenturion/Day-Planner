@@ -5,17 +5,14 @@
 function colorCode() {
     var currentTime = moment().format("HH");
 // Create jQuery function and if else if else statement to utilize past, present, and future color codes defined in original styles.css doc
-
     $(".time-block").each(function () {
-        var inputField = JSON.parse($(this).attr("id"));
-        if (currentTime > inputField) {
-            $(this).addClass("past");
-        }
-        else if (currentTime == inputField) {
-            $(this).addClass("present");
-        }
-        else{
-            $(this).addClass("future");
+    var inputField = JSON.parse($(this).attr("id"));
+    if (currentTime > inputField) {
+        $(this).addClass("past");
+    } else if (currentTime == inputField) {
+        $(this).addClass("present");
+    } else {
+        $(this).addClass("future");
         }
     });
 }
@@ -43,8 +40,8 @@ $(".saveBtn").on("click", function(e) {
 e.preventDefault();
 var value = $(this).siblings(".time-block").val()
 var time = $(this).parent().attr("id")
-//console.log(value)
-//console.log(time)
+// console.log(value)
+// console.log(time)
 localStorage.setItem(time, value)
 }
 )
