@@ -1,12 +1,11 @@
 // Make a function to color code hours of past present and future
 // Create a function that will run once an hour that will compare the ID of your block with the current hour inside the variable date
 // Google jQUery how to change or delete attributes w/ jQuery
-// //function to change the color of the input fields
 function colorCode() {
-    var currentTime = moment().format("HH");
+var currentTime = moment().format("HH");
 // Create jQuery function and if else if else statement to utilize past, present, and future color codes defined in original styles.css doc
     $(".time-block").each(function () {
-    var inputField = JSON.parse($(this).attr("id"));
+var inputField = JSON.parse($(this).attr("id"));
     if (currentTime > inputField) {
         $(this).addClass("past");
     } else if (currentTime == inputField) {
