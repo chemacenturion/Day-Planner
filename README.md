@@ -1,4 +1,4 @@
-# Daily Planner
+# Day Planner
 ## A busy employee requests an application that houses a daily planner to make scheduling daily events easier.
 * When application is launched the current date is displayed at the top using moment.js.
 * Upon scrolling down normal business hours are seen (9a-5p) in a color coded format: [Grey = Past], [Red = Present], and [Green = Future].
