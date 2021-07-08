@@ -31,52 +31,52 @@
     <div class="container">
       <!-- Timeblocks go here -->
       <!-- Create 9 separate forms with a button to save and a button to clear. -->
-      <form class="row">
+      <form class="row" id="9">
       <!-- Made sure to match all form classes with CSS selectors to obtain pre-provided styles. -->
-      <!-- Needed to tab once after all single digit hours to get timeblock inputs to line up correctly. -->
+      <!-- Needed to tab once after all single digit hours to get timeblock textareas to line up correctly. -->
         <label class="hour"><p>9AM  </p></label>
-        <input type="text" class="time-block" name="Event">
+        <textarea type="text" class="time-block" name="Event" id="9"></textarea>
       <!-- Added white floppy disk unicdoe as seen in application example. -->
         <button class="saveBtn"><span>&#128427</span></button>
       </form>
-      <form class="row">
+      <form class="row" id="10">
         <label class="hour"><p>10AM</p></label>
-        <input type="text" class="time-block" name="Event">
+        <textarea type="text" class="time-block" name="Event" id="10"></textarea>
         <button class="saveBtn"><span>&#128427</span></button>
       </form>
-      <form class="row">
+      <form class="row" id="11">
         <label class="hour"><p>11AM</p></label>
-        <input type="text" class="time-block" name="Event">
+        <textarea type="text" class="time-block" name="Event" id="11"></textarea>
         <button class="saveBtn"><span>&#128427</span></button>
       </form>
-      <form class="row">
+      <form class="row" id="12">
         <label class="hour"><p>12PM</p></label>
-        <input type="text" class="time-block" name="Event">
+        <textarea type="text" class="time-block" name="Event" id="12"></textarea>
         <button class="saveBtn"><span>&#128427</span></button>
       </form>
-      <form class="row">
+      <form class="row" id="13">
         <label class="hour"><p>1PM  </p></label>
-        <input type="text" class="time-block" name="Event">
+        <textarea type="text" class="time-block" name="Event" id="13"></textarea>
         <button class="saveBtn"><span>&#128427</span></button>
       </form>
-      <form class="row">
+      <form class="row" id="14">
         <label class="hour"><p>2PM  </p></label>
-        <input type="text" class="time-block" name="Event">
+        <textarea type="text" class="time-block" name="Event" id="14"></textarea>
         <button class="saveBtn"><span>&#128427</span></button>
       </form>
-      <form class="row">
+      <form class="row" id="15">
         <label class="hour"><p>3PM  </p></label>
-        <input type="text" class="time-block" name="Event">
+        <textarea type="text" class="time-block" name="Event" id="15"></textarea>
         <button class="saveBtn"><span>&#128427</span></button>
       </form>
-      <form class="row">
+      <form class="row" id="16">
         <label class="hour"><p>4PM  </p></label>
-        <input type="text" class="time-block" name="Event">
+        <textarea type="text" class="time-block" name="Event" id="16"></textarea>
         <button class="saveBtn"><span>&#128427</span></button>
       </form>
-      <form class="row">
+      <form class="row" id="17">
         <label class="hour"><p>5PM  </p></label>
-        <input type="text" class="time-block" name="Event">
+        <textarea type="text" class="time-block" name="Event" id="17"></textarea>
         <button class="saveBtn"><span>&#128427</span></button>
       </form>
      
@@ -84,13 +84,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <script type="text/javascript" src="./Assets/script.js"></script>
-
-    <script>
-// dddd MMMM Do YYYY date format provided by moment.js webpage given in original readME instructions.
-      var currentDate = $("#currentDay");
-        var date = moment().format('dddd MMMM Do YYYY');
-        currentDate.text(date)
-    </script>
 
   </body>
 </html>

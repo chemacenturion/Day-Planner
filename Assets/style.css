@@ -30,6 +30,7 @@ textarea {
   display: inline-block;
   padding-left: 20px;
   color:black;
+  border: black 1px solid;
 }
 
 .row {
@@ -75,3 +76,4 @@ textarea {
   font-size: 32px;
   color: #000000;
 }
+
