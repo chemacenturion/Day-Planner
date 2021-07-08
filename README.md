@@ -5,4 +5,4 @@
 * When a timeblock is selected than an event can be entered.
 * Once an event is entered into the timeblock the user is able to click the save button which will save the event to local storage.
 * When the event is saved in local storage it is permanently displayed in the timeblock until cleared regardless of the number of times the application is refreshed.
-## Application DEMO
+## Application Screenshot

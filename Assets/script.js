@@ -27,7 +27,7 @@ var date = moment().format('dddd MMMM Do YYYY');
 currentDate.text(date)
 
 
-// Add a function to getItem for display regardless of refresh
+// Use jQuery to getItem for display regardless of refresh
 $("#9 .time-block").val(localStorage.getItem("9"))
 $("#10 .time-block").val(localStorage.getItem("10"))
 $("#11 .time-block").val(localStorage.getItem("11"))
