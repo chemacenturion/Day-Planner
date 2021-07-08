@@ -6,3 +6,6 @@
 * Once an event is entered into the timeblock the user is able to click the save button which will save the event to local storage.
 * When the event is saved in local storage it is permanently displayed in the timeblock until cleared regardless of the number of times the application is refreshed.
 ## Application Screenshot
+![Alt text] (https://github.com/chemacenturion/Work-Day-Scheduler/blob/main/Assets/Screenshot%20(13).png "Work-Scheduler SS")
+## Deployed Application link:
+https://chemacenturion.github.io/Work-Day-Scheduler/
