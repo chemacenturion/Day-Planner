@@ -1,7 +1,7 @@
 # Day Planner
 
 ## Deployed Application link:
-https://chemacenturion.github.io/Work-Day-Scheduler/
+[Work-Day-Scheduler](https://chemacenturion.github.io/Work-Day-Scheduler/)
 
 ## A busy employee requests an application that houses a daily planner to make scheduling daily events easier.
 * When application is launched the current date is displayed at the top using moment.js.
