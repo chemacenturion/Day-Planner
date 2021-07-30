@@ -10,6 +10,10 @@
 ## Deployed Application link:
 https://chemacenturion.github.io/Work-Day-Scheduler/
 
+# Contact
+
+José María Centurión( centurion.philadelphia@gmail.com )
+
 # License
 
 MIT License
