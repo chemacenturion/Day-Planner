@@ -39,7 +39,7 @@ $(".saveBtn").on("click", function(e) {
 e.preventDefault();
 var value = $(this).siblings(".time-block").val()
 var time = $(this).parent().attr("id")
-// console.log(value)
+
 localStorage.setItem(time, value)
 }
 )
