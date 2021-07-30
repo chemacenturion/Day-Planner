@@ -12,7 +12,12 @@
 ## Application Screenshot
 ![Work-Scheduler SS](https://github.com/chemacenturion/Work-Day-Scheduler/blob/main/Assets/Work%20Day%20Scheduler.gif?raw=true)
 
-
+# Technologies Used
+    HTML
+    CSS
+    Javascript
+    Local Storage
+    
 # Contact
 
 José María Centurión( centurion.philadelphia@gmail.com )
