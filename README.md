@@ -13,10 +13,10 @@
 ![Work-Scheduler SS](https://github.com/chemacenturion/Work-Day-Scheduler/blob/main/Assets/Untitled_%20Jul%2030,%202021%209_34%20PM.gif?raw=true)
 
 # Technologies Used
-    HTML
-    CSS
-    Javascript
-    Local Storage
+*HTML
+*CSS
+*Javascript
+*Local Storage
     
 # Contact
 
